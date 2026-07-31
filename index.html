@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Favorite Person</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="hero">
+    <nav class="topbar">
+      <span class="brand">made with love</span>
+      <!-- <a href="#letter" class="nav-link">open the note</a> -->
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">A little corner of the internet for you</p>
+      <h1>To the girl who became the best part of my story</h1>
+      <!-- <p class="intro">
+        I wanted to make you something that feels warm, thoughtful, and a little magical
+        because that is exactly how life feels with you in it.
+      </p> -->
+      <div class="hero-actions">
+        <a href="#moments" class="button primary">Feel the lyrics</a>
+        <button class="button ghost" id="surpriseButton" type="button">Tap for a surprise</button>
+        <button class="button candy" id="complimentButton" type="button">Generate a cute fact</button>
+      </div>
+      <p class="fun-output" id="funOutput">Fun mode is active. Press the button for a fresh compliment.</p>
+    </div>
+
+    <div class="hero-stickers" aria-hidden="true">
+      <div class="sticker bunny">
+        <span class="sticker-face">(\\_/)</span>
+        <span class="sticker-label">love bunny</span>
+      </div>
+      <div class="sticker panda">
+        <span class="sticker-face">("(oo)")</span>
+        <span class="sticker-label">soft panda</span>
+      </div>
+      <div class="sticker cat">
+        <span class="sticker-face">(=^.^=)</span>
+        <span class="sticker-label">chaos cat</span>
+      </div>
+    </div>
+
+    <div class="floating-notes" aria-hidden="true">
+      <span>beautiful</span>
+      <span>brilliant</span>
+      <span>kind</span>
+      <span>home</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="section story" id="moments">
+      <div class="section-heading">
+        <p class="eyebrow">Feel The Lyrics</p>
+        <h2>Because I can't describe it fully in my own words, but these songs can.</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card-number">01</span>
+          <h3>Unnai oru paadhi</h3>
+          <p>
+            Unnai oru paadhi <br>
+            Endru ninaikaamal <br>
+            Aththanaiyum neeyena ninaipadhilae <br>
+            Naalellaam theerndhaalae sandhosam
+          </p>
+        </article>
+        <article class="card">
+          <span class="card-number">02</span>
+          <h3>Sollaadha aasai</h3>
+          <p>
+            Sollaadha aasai ellaam needhaanae pennae oh, oh <br>
+            Thallaadum aayulvarai vaendum oh, oh <br>
+            En kaadhal paadal ellaam needhaanae pennae oh, oh <br>
+            En maalai naeram ellaam vaendum oh, oh, ohhh
+          </p>
+        </article>
+        <article class="card">
+          <span class="card-number">03</span>
+          <h3>Tere binaa</h3>
+          <p>
+            Tere binaa sonaa peetal <br>
+            Tere sang keekar peepal <br>
+            Aaja kate naa ratiyaan
+          </p>
+        </article>
+        <article class="card">
+          <span class="card-number">04</span>
+          <h3>Perfect kind of love</h3>
+          <p>
+            Well I found a women <br>
+            Stronger than anyone I know <br>
+            She shares my dream I hope that someday <br>
+            I'll share her home <br>
+            I found a love <br>
+            To carry more than just one secret <br>
+            To carry love, to carry children
+            of our own
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- <section class="section critters">
+      <div class="section-heading">
+        <p class="eyebrow">Cute Overload</p>
+        <h2>Because every love page is better with rabbits, pandas, and cats.</h2>
+      </div>
+
+      <div class="critter-grid">
+        <article class="critter-card rabbit-card">
+          <div class="critter-art">(\\_/)<br>( ^.^ )<br>(")_(")</div>
+          <h3>Rabbit Energy</h3>
+          <p>Very sweet, very fast, and probably plotting how to steal all available cuddles.</p>
+        </article>
+        <article class="critter-card panda-card">
+          <div class="critter-art">/oo\\<br>|--|<br>\\__/</div>
+          <h3>Panda Mood</h3>
+          <p>Soft, lovable, slightly dramatic, and perfect for cozy afternoons and ridiculous selfies.</p>
+        </article>
+        <article class="critter-card cat-card">
+          <div class="critter-art">/\\_/\\\\<br>( o.o )<br>&gt; ^ &lt;</div>
+          <h3>Cat Behavior</h3>
+          <p>Elegant one second, menace the next, still somehow adorable the whole time.</p>
+        </article>
+      </div>
+    </section> -->
+<!-- 
+    <section class="section timeline">
+      <div class="section-heading">
+        <p class="eyebrow">The little big things</p>
+        <h2>The moments that stay with me.</h2>
+      </div>
+
+      <div class="timeline-grid">
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <h3>The way you smile when you are truly happy</h3>
+          <p>That look alone could probably fix my entire week.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <h3>Your voice when you say my name</h3>
+          <p>It somehow sounds like comfort and excitement at the same time.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <h3>The calm I feel with you</h3>
+          <p>You make everything feel less heavy and much more beautiful.</p>
+        </div>
+      </div>
+    </section> -->
+<!-- 
+    <section class="section chase-section">
+      <div class="section-heading">
+        <p class="eyebrow">Cartoon Mode</p>
+        <h2>Tom-and-Jerry level chaos, but make it romantic.</h2>
+      </div>
+
+      <div class="chase-card">
+        <div class="chase-track" aria-hidden="true">
+          <span class="runner cat-run">cat</span>
+          <span class="runner mouse-run">mouse</span>
+        </div>
+        <p>
+          If our vibe were a cartoon, it would be equal parts teasing, laughing, chasing each other around,
+          and somehow ending every episode even more obsessed than before.
+        </p>
+      </div>
+    </section> -->
+
+    <section class="section playground">
+      <div class="section-heading">
+        <p class="eyebrow">Playground</p>
+        <h2>A few ridiculous but very accurate statistics.</h2>
+      </div>
+
+      <div class="play-grid">
+        <article class="meter-card">
+          <p class="eyebrow">Certified result</p>
+          <h3>Girlfriend Amazingness Meter</h3>
+          <div class="meter-shell" aria-hidden="true">
+            <div class="meter-fill" id="meterFill"></div>
+          </div>
+          <p class="meter-label" id="meterLabel">Loading the official results...</p>
+          <button class="button primary" id="meterButton" type="button">Recalculate</button>
+        </article>
+
+        <article class="quiz-card">
+          <p class="eyebrow">Important question</p>
+          <h3>Who is the cutest person on this page?</h3>
+          <div class="quiz-actions">
+            <button class="button ghost quiz-option" type="button">You</button>
+            <button class="button ghost quiz-option" type="button">Still you</button>
+            <button class="button ghost quiz-option" type="button">Absolutely you</button>
+          </div>
+          <p class="quiz-response" id="quizResponse">Choose carefully, but honestly all answers are correct.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section find-you">
+      <div class="section-heading">
+        <p class="eyebrow">Find You</p>
+        <h2>Which animal suits you today?</h2>
+      </div>
+
+      <div class="find-card">
+        <div class="find-preview">
+          <img
+            id="animalImage"
+            alt=""
+            class="animal-image hidden-image"
+          >
+        </div>
+        <div class="find-copy">
+          <p class="eyebrow">Official adorable analysis</p>
+          <h3 id="animalTitle">Pick your animal</h3>
+          <button class="button candy" id="animalButton" type="button">Pick my animal</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section girlfriend-type">
+      <div class="section-heading">
+        <p class="eyebrow">Girlfriend Type</p>
+        <h2>What kind of girlfriend are you?</h2>
+      </div>
+
+      <div class="find-card">
+        <div class="find-preview">
+          <img
+            id="girlfriendImage"
+            alt=""
+            class="animal-image hidden-image"
+          >
+        </div>
+        <div class="find-copy">
+          <button class="button candy" id="girlfriendButton" type="button">Show my picture</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section flames-section">
+      <div class="section-heading">
+        <p class="eyebrow">FLAMES</p>
+        <h2>Enter two names and let the chaos decide.</h2>
+      </div>
+
+      <div class="flames-card">
+        <div class="flames-form">
+          <label class="flames-field">
+            <span>Your name</span>
+            <input id="flamesNameOne" type="text" placeholder="Enter first name">
+          </label>
+          <label class="flames-field">
+            <span>Partner's name</span>
+            <input id="flamesNameTwo" type="text" placeholder="Enter second name">
+          </label>
+          <button class="button primary" id="flamesButton" type="button">Reveal FLAMES</button>
+        </div>
+
+        <div class="flames-result-card">
+          <p class="eyebrow">Result</p>
+          <h3 id="flamesResultTitle">Waiting for two names...</h3>
+          <p id="flamesResultText">Type both names and press the button to get your FLAMES result.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section love-meter-section">
+      <div class="section-heading">
+        <p class="eyebrow">Love Meter</p>
+        <h2>Find how much your partner loves you.</h2>
+      </div>
+
+      <div class="love-meter-card">
+        <div class="love-meter-form">
+          <label class="flames-field">
+            <span>Name</span>
+            <input id="loveName" type="text" placeholder="Enter name">
+          </label>
+          <label class="flames-field">
+            <span>Zodiac</span>
+            <input id="loveZodiac" type="text" placeholder="Enter zodiac sign">
+          </label>
+          <label class="flames-field">
+            <span>Date of Birth</span>
+            <input id="loveDob" type="date">
+          </label>
+          <button class="button primary" id="loveMeterButton" type="button">Calculate Love</button>
+        </div>
+
+        <div class="love-meter-result">
+          <p class="eyebrow">Reading</p>
+          <div class="love-meter-shell" aria-hidden="true">
+            <div class="love-meter-fill" id="loveMeterFill"></div>
+          </div>
+          <h3 id="loveMeterTitle">Waiting for details...</h3>
+          <p id="loveMeterText">Add the details and let the meter reveal the truth.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section breakup-section">
+      <div class="section-heading">
+        <p class="eyebrow">Final Question</p>
+        <h2 id="breakupQuestion">Do you wanna breaup with me?</h2>
+      </div>
+
+      <div class="breakup-card">
+        <p class="breakup-response" id="breakupResponse">Choose carefully. This one is very serious and absolutely not biased.</p>
+        <div class="breakup-actions" id="breakupActions">
+          <button class="button ghost breakup-no" id="breakupNo" type="button">No</button>
+          <button class="button primary breakup-yes" id="breakupYes" type="button">Yes</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section letter" id="letter">
+      <div class="letter-panel">
+        <p class="eyebrow">A note for you</p>
+        <h2>If I could wrap a feeling into a webpage, it would look like this.</h2>
+        <p>
+          Thank you for being exactly who you are. Thank you for your warmth, your patience,
+          your humor, and the way you make love feel safe and exciting all at once.
+        </p>
+        <p>
+          You are one of the most beautiful parts of my life, and if this page makes you smile
+          even half as much as you make me smile, then it did its job.
+        </p>
+        <p class="signature">Forever your biggest fan.</p>
+      </div>
+    </section> -->
+  </main>
+
+  <div class="modal hidden" id="surpriseModal" aria-hidden="true" role="dialog" aria-labelledby="surpriseTitle">
+    <div class="modal-card">
+      <button class="close-button" id="closeModal" type="button" aria-label="Close surprise">x</button>
+      <p class="eyebrow">Surprise</p>
+      <h2 id="surpriseTitle">Ayayo Marandhuta pa🙂</h2>
+      <!-- <p>
+        You are my favorite notification, my favorite thought, and my favorite future.
+      </p> -->
+    </div>
+  </div>
+
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
