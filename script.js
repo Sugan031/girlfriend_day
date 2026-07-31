@@ -50,49 +50,49 @@ const meterResults = [
 const animals = [
   {
     name: "Rabbit",
-    image: "assets/animals/rabbit.jpg",
+    image: "assests/animals/rabbit.jpg",
     description: "Sweet, quick, affectionate, and impossible not to love for even one second."
   },
   {
     name: "Panda",
-    image: "assets/animals/panda.jpg",
+    image: "assests/animals/panda.jpg",
     description: "Soft, cozy, adorable, and somehow powerful just by existing."
   },
   {
     name: "Cat",
-    image: "assets/animals/cat.jpg",
+    image: "assests/animals/cat.jpg",
     description: "Elegant, chaotic, funny, and fully aware that you run the whole room."
   },
   {
     name: "Monkey",
-    image: "assets/animals/monkey.jpg",
+    image: "assests/animals/monkey.jpg",
     description: "Playful, clever, curious, and always one step away from a hilarious idea."
   },
   {
     name: "Pig",
-    image: "assets/animals/pig.jpg",
+    image: "assests/animals/pig.jpg",
     description: "Round-cheeked joy, pure comfort, and a professional at being cute without trying."
   },
   {
     name: "Donkey",
-    image: "assets/animals/donkey.jpg",
+    image: "assests/animals/donkey.jpg",
     description: "Strong, stubborn in the cutest way, and secretly one of the most lovable souls around."
   },
   {
     name: "Rat",
-    image: "assets/animals/rat.jpg",
+    image: "assests/animals/rat.jpg",
     description: "Tiny genius energy: fast, resourceful, and underestimated by people who just do not get it."
   }
 ];
 
 const girlfriendImages = [
-  "assets/girlfriends/amalpaul.jpg",
-  "assets/girlfriends/eppo_varinga.jpg",
-  "assets/girlfriends/jesse.jpg",
-  "assets/girlfriends/nikki.jpg",
-  "assets/girlfriends/shobana.jpg",
-  "assets/girlfriends/vallavan_geetha.jpg",
-  "assets/girlfriends/vani.jpg"
+  "assests/girlfriends/amalpaul.jpg",
+  "assests/girlfriends/eppo_varinga.jpg",
+  "assests/girlfriends/jesse.jpg",
+  "assests/girlfriends/nikki.jpg",
+  "assests/girlfriends/shobana.jpg",
+  "assests/girlfriends/vallavan_geetha.jpg",
+  "assests/girlfriends/vani.jpg"
 ];
 
 const flamesMeanings = {
